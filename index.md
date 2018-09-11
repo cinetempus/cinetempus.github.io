@@ -1,8 +1,10 @@
 ---
 layout: main
+
 ---
 
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+    {% include flexslider-posts.html %}
     <div class="alert success">
         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
         Hola Coder, te habla Briitney c: por el momento el sitio web es solo un blog, pronto vendran cositas nuevas, si quieres saber sobre este proyecto, lee el siguiente 
