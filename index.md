@@ -3,7 +3,7 @@ layout: main
 
 ---
 
-<main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+<main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog" style="padding-top: 65px;">
     {% include flexslider-posts.html %}
     <div class="alert success">
         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 

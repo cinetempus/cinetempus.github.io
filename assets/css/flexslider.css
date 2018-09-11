@@ -78,7 +78,7 @@ html[xmlns] .flexslider .slides {
   border: 4px solid #fff;
   position: relative;
   zoom: 1;
-  height:400px;
+  height:300px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -91,7 +91,7 @@ html[xmlns] .flexslider .slides {
   zoom: 1;
 }
 .flexslider .slides img {
-  height: 390px;
+  height: 295px;
   -moz-user-select: none;
 }
 
@@ -101,10 +101,10 @@ html[xmlns] .flexslider .slides {
   padding: 2%;
   left: 0;
   bottom: 0;
-  background: rgb(212, 0, 0);
+  background: rgb(0, 0, 0, 0.8);
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0,0,0,.3);
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
   line-height: 18px;
 }
