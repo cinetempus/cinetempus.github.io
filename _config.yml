@@ -1,0 +1,43 @@
+# Site Settings
+title: Studio Code
+email: iambriitneysam@gmail.com
+description: Blog dedicado a la programación.
+baseurl: ""
+url: https://imbriitneysam.github.io/
+google_analytics: 
+
+# User Settings
+username: Briitney Samaniego
+user_description: Estudiante de Ingenería de Sistemas en la Universidad San Gregorio de Portoviejo.
+disqus_username: briitneysamaniego
+
+# Social Media
+# Remove the item if you don't need it
+github_username: imbriitneysam
+facebook_username: imbriitneysam
+twitter_username: 
+instagram_username: imbriitneysam
+linkedin_username: 
+medium_username: 
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Plugins
+gems:
+  - jemoji
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Inicio
+    url: /
+  - title: Acerca del autor
+    url: about/
+  - title: Contacto
+    url: contact/
+
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
