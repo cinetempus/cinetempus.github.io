@@ -1,27 +1,19 @@
 ---
 layout: post
-title: "5 Formas de obtener contraseñas de Facebook (o de cualquier otra red social)"
-date: 2018-08-12 22:35:40
-image: 'https://res.cloudinary.com/imbriitneysam/image/upload/v1536800191/sp3-min.jpg'
-description: Alguna vez te has preguntado ¿Cómo puedo obtener la contraseña de facebook de ese chico/chica que te gusta?, pues aqui te enseñare como uwu.
-category: 'seguridad-informatica'
+title: "¿De que tratará el sitio web Studio Code?"
+date: 2018-07-25 22:35:40
+image: 'https://res.cloudinary.com/imbriitneysam/image/upload/v1532495552/post-min.jpg'
+description: Studio Code, el inicio de una nueva manera de compartir conocimientos informáticos.
+category: 'Variado'
 tags:
-- seguridad-informatica
-twitter_text: Alguna vez te has preguntado ¿Cómo puedo obtener la contraseña de facebook de ese chico/chica que te gusta?, pues aqui te enseñare como uwu.
-introduction: Alguna vez te has preguntado ¿Cómo puedo obtener la contraseña de facebook de ese chico/chica que te gusta?, pues aqui te enseñare como uwu.
+- Variado
+twitter_text: Studio Code, el inicio de una nueva manera de compartir conocimientos informáticos.
+introduction: Studio Code, ¿El inicio de una nueva manera de compartir conocimientos informáticos?, hay que intentarlo.
 ---
 
 
- <div align="justify" class="alert alert-danger">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-        Hola Coder, te habla Briitney, en este artículo <strong>NO ASUMO</strong> ninguna responsabilidad debida al mal empleo de la información aquí contenida, puesto que este texto solamente tiene fines educativos y en ningún caso pretende incitar a nadie a cometer ningún delito ya sea informático o de otra índole. 
-  </div>
-
-<p align="justify">
-
-Jelouda con todos, primeramente tengo que dejar algo en claro, si desean obtener la contraseña de Facebook de una persona que vive en otro país, ciudad, provincia etc,
-este artículo no es para ti, las siguientes formas que les mostraré de como conseguir contraseñas de cuentas solo aplica si tienes contacto "físico" con la victima (es decir lo conoces en persona)
-como pueden ser tus amigos de casa, de colegio / universidad, novio(a), familiares etc. <b>Bien Comenzemos¡¡</b> 
+<p align="justify"> Hola lindo usuario uwu, quizá te estarás preguntando ¿que coño es esto?, yo solo veo un simple Blog, y si tienes razón es un simple blog, que no cuenta con su propio servidor ni su propio dominio pero
+eso será temporal, porque lo que tengo pensado hacer es algo grande, ya que existe los recursos y personal para hacerlo, pero todo a su tiempo, por ahora disfruta de los futuros artículos que habrán y por supuesto, de este. Bien comenzemos 7u7.
 
 </p>   
 
