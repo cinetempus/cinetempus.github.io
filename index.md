@@ -20,6 +20,189 @@ layout: main
 
 
 
+<!-- banner-bottom -->
+<div class="banner-bottom">
+		<div class="container">
+			<div class="w3_agile_banner_bottom_grid">
+				<div id="owl-demo" class="owl-carousel owl-theme">
+					<div class="item">
+						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
+							<a href="single.html" class="hvr-shutter-out-horizontal"><img src="https://res.cloudinary.com/imbriitneysam/image/upload/v1536896767/m11-min.jpg" title="album-name" class="img-responsive" alt=" " />
+								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+							</a>
+							<div class="mid-1 agileits_w3layouts_mid_1_home">
+								<div class="w3l-movie-text">
+									<h6><a href="single.html">SpiderMan: HomeComing</a></h6>							
+								</div>
+								<div class="mid-2 agile_mid_2_home">
+									<p>2016</p>
+									<div class="block-stars">
+										<ul class="w3l-ratings">
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="ribben">
+								<p>NEW</p>
+							</div>
+						</div>
+					</div>
+                    <div class="item">
+						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
+							<a href="single.html" class="hvr-shutter-out-horizontal"><img src="https://res.cloudinary.com/imbriitneysam/image/upload/v1536896767/m11-min.jpg" title="album-name" class="img-responsive" alt=" " />
+								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+							</a>
+							<div class="mid-1 agileits_w3layouts_mid_1_home">
+								<div class="w3l-movie-text">
+									<h6><a href="single.html">SpiderMan: HomeComing</a></h6>							
+								</div>
+								<div class="mid-2 agile_mid_2_home">
+									<p>2016</p>
+									<div class="block-stars">
+										<ul class="w3l-ratings">
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="ribben">
+								<p>NEW</p>
+							</div>
+						</div>
+					</div>
+                           <div class="item">
+						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
+							<a href="single.html" class="hvr-shutter-out-horizontal"><img src="https://res.cloudinary.com/imbriitneysam/image/upload/v1536896767/m11-min.jpg" title="album-name" class="img-responsive" alt=" " />
+								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+							</a>
+							<div class="mid-1 agileits_w3layouts_mid_1_home">
+								<div class="w3l-movie-text">
+									<h6><a href="single.html">SpiderMan: HomeComing</a></h6>							
+								</div>
+								<div class="mid-2 agile_mid_2_home">
+									<p>2016</p>
+									<div class="block-stars">
+										<ul class="w3l-ratings">
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="ribben">
+								<p>NEW</p>
+							</div>
+						</div>
+					</div>
+                           <div class="item">
+						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
+							<a href="single.html" class="hvr-shutter-out-horizontal"><img src="https://res.cloudinary.com/imbriitneysam/image/upload/v1536896767/m11-min.jpg" title="album-name" class="img-responsive" alt=" " />
+								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+							</a>
+							<div class="mid-1 agileits_w3layouts_mid_1_home">
+								<div class="w3l-movie-text">
+									<h6><a href="single.html">SpiderMan: HomeComing</a></h6>							
+								</div>
+								<div class="mid-2 agile_mid_2_home">
+									<p>2016</p>
+									<div class="block-stars">
+										<ul class="w3l-ratings">
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="ribben">
+								<p>NEW</p>
+							</div>
+						</div>
+					</div>
+                           <div class="item">
+						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
+							<a href="single.html" class="hvr-shutter-out-horizontal"><img src="https://res.cloudinary.com/imbriitneysam/image/upload/v1536896767/m11-min.jpg" title="album-name" class="img-responsive" alt=" " />
+								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+							</a>
+							<div class="mid-1 agileits_w3layouts_mid_1_home">
+								<div class="w3l-movie-text">
+									<h6><a href="single.html">SpiderMan: HomeComing</a></h6>							
+								</div>
+								<div class="mid-2 agile_mid_2_home">
+									<p>2016</p>
+									<div class="block-stars">
+										<ul class="w3l-ratings">
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="ribben">
+								<p>NEW</p>
+							</div>
+						</div>
+					</div>
+                           <div class="item">
+						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
+							<a href="single.html" class="hvr-shutter-out-horizontal"><img src="https://res.cloudinary.com/imbriitneysam/image/upload/v1536896767/m11-min.jpg" title="album-name" class="img-responsive" alt=" " />
+								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
+							</a>
+							<div class="mid-1 agileits_w3layouts_mid_1_home">
+								<div class="w3l-movie-text">
+									<h6><a href="single.html">SpiderMan: HomeComing</a></h6>							
+								</div>
+								<div class="mid-2 agile_mid_2_home">
+									<p>2016</p>
+									<div class="block-stars">
+										<ul class="w3l-ratings">
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="ribben">
+								<p>NEW</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+</div>
+<!-- //banner-bottom -->
+
+
+
+
+
 <div id="grid" class="row">
     {% for post in site.posts %}
         <article class="box-item col-md-3 col-xs-6 col-lg-3" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">

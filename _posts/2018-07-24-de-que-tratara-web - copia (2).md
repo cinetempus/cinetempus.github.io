@@ -3,6 +3,7 @@ layout: post
 title: "¿De que tratará el sitio web Studio Code?"
 date: 2018-07-25 22:35:40
 image: 'https://res.cloudinary.com/imbriitneysam/image/upload/v1532495552/post-min.jpg'
+image_cover: 'https://res.cloudinary.com/imbriitneysam/image/upload/v1536896767/m11-min.jpg'
 description: Studio Code, el inicio de una nueva manera de compartir conocimientos informáticos.
 category: 'Variado'
 tags:
