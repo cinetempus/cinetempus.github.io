@@ -22,7 +22,7 @@ layout: main
 
 <div id="grid" class="row">
     {% for post in site.posts %}
-        <article class="box-item col-md-4" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+        <article class="box-item col-md-3 col-xs-6 col-lg-3" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
             <div class="box">
             <div class="box-body">
                 {% if post.image %}

@@ -1,13 +1,17 @@
 <aside id="sidebar">
     <nav id="navigation">
-     <div align="center"> <a href="/"> <img src="/final-min.png"> </a> </div>
+     <div align="center" style="padding-top: 10px;"> <a href="/"> <img src="/final-min.png"> </a>
+     
+     <br>
+     <span style="font-weight:bold; color:white;">Toros Negros TV </span>
+      </div>
      <hr>
       <ul>
         {% for link in site.links %}
-          <li><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}"> <i class='fa fa-heart'></i> {{ link.title }}</a></li>
+          <li><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}"> <i class='fa fa-film' style="padding-right:10px;"></i> {{ link.title }}</a></li>
  
         {% endfor %}
-        <li><a class="feed" href="{{ site.url }}{{site.baseurl}}/feed.xml" title="Atom/RSS feed"> <i class='fa fa-rss'></i> Feed</a></li>
+        
       </ul>
     </nav>
 </aside>

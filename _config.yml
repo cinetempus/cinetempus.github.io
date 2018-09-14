@@ -32,11 +32,11 @@ gems:
 # Links to include in menu navigation
 # For external links add external: true
 links:
-  - title: Inicio
-    url: /
-  - title: Acerca del autor
+  - title: Peliculas
     url: about/
-  - title: Contacto
+  - title: Series
+    url: contact/
+  - title: XXX / Hentai
     url: contact/
 
 # Exclude my node related stuff
