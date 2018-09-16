@@ -48,3 +48,23 @@ text-decoration:none;
 .clasificacion{text-transform:uppercase;background-color:#ff0a16;margin-left:10px;height:1.25rem;border-radius:.3rem;font-size:.75rem;padding:.125rem .5rem;color:#fff}
 
 .search-form .search-list{height:500px; overflow-y: scroll}
+.top_h2{
+    font-family: latin-100,arabic-100,sans-serif;
+    color:#FFB03B;
+    padding-top: 70px;
+}
+
+@media only screen and (max-width: 690px) {
+    .flexslider .slides img {
+        height: 300px;
+    }
+
+    .top_h2{
+        font-family: latin-100,arabic-100,sans-serif;
+        color:#FFB03B;
+        padding-top: 10px;
+        
+    }
+}
+
+

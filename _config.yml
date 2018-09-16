@@ -33,7 +33,7 @@ gems:
 # For external links add external: true
 links:
   - title: Peliculas
-    url: about/
+    url: /category/peliculas
   - title: Series
     url: contact/
   - title: XXX / Hentai

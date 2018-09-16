@@ -197,6 +197,7 @@ ul#myTab {
 .w3l-movie-text h6 a {
     font-size: 1.4em;
     color: white;
+    text-align: center;
 }
 .w3l-movie-text {
 	    margin: 0.7em 0;

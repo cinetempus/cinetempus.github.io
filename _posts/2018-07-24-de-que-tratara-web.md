@@ -1,10 +1,13 @@
 ---
 layout: post
-title: "¿De que tratará el sitio web Studio Code?"
+title: "SpiderMan: HomeComing"
 date: 2018-07-25 22:35:40
-image: 'https://res.cloudinary.com/imbriitneysam/image/upload/v1532495552/post-min.jpg'
+image: 'https://res.cloudinary.com/imbriitneysam/image/upload/v1536800191/sp3-min.jpg'
+image_carousel: 'https://res.cloudinary.com/imbriitneysam/image/upload/v1537067276/spider-min.jpg'
 description: Studio Code, el inicio de una nueva manera de compartir conocimientos informáticos.
-category: 'Variado'
+category: 'peliculas'
+nuevo: 'new_peliculas'
+anio: '2016'
 tags:
 - Variado
 twitter_text: Studio Code, el inicio de una nueva manera de compartir conocimientos informáticos.
