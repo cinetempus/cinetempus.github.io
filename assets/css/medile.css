@@ -413,7 +413,7 @@ ol.breadcrumb li a {
 }
 @media (max-width:384px){
 	.w3l-movie-text h6 a {
-      font-size: 1.5em;
+      font-size: 1.3em;
 	}
 	ul.w3l-ratings li i,.w3l-ratings a i {
 		font-size: 1em;
