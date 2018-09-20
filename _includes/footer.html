@@ -52,7 +52,36 @@
       });
     
     }); 
-  </script>     
+  </script>    
+
+  <script>
+
+    $(document).ready(function(){
+
+        $("#menu").on( "click", function() {
+          $('#menu').hide(); 
+          $('#menu2').show(); 
+        
+        });
+        $("#menu2").on( "click", function() {
+          $('#menu2').hide(); 
+          $('#menu').show();
+        });
+
+        $("#mask").on( "click", function() {
+          $('#menu2').hide(); 
+          $('#menu').show();
+        });
+    });
+
+
+  </script> 
+
+  <script type="text/javascript">
+  $(window).load(function() {
+      $(".loader").fadeOut("slow");
+  });
+  </script>
 	<!-- Initialisation Code  -->
 	<script src="/assets/js/app.js"></script>
 <script id="dsq-count-scr" src="//https-imbriitneysam-github-io.disqus.com/count.js" async></script>
