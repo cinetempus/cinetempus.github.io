@@ -1,11 +1,20 @@
-<!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/BlogPosting">
-    {% include head.html %}
-    <body class="has-push-menu">
-        {% include minutes-to-read.html %}
-        {% include svg-icons.html %}
-        {% include header.html %}
-        <section class="post">
+---
+layout: main
+---
+
+<main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+        <div class="header-video">
+            <img src="https://res.cloudinary.com/imbriitneysam/image/upload/v1537139249/monaj3-min.jpg"
+                class="header-video__media"
+                data-video-URL="https://www.youtube.com/embed/Scxs7L0vhZ4"
+                data-video-width="560"
+                data-video-height="315">
+            <a href="https://www.youtube.com/embed/Scxs7L0vhZ4" class="header-video__play-trigger" id="header-video__play-trigger">Ver Trailer</a>
+            <button type="button" class="header-video__close-trigger" id="header-video__close-trigger">Cerrar Trailer</button>
+        </div>
+
+       
+ 
 
             <article role="article" id="post" class="post-content" itemprop="articleBody">
                 <p itemprop="post-info" class="post-info">
@@ -28,19 +37,6 @@
                 {{ content }}
             </article>
 
-            <div class="progress-bar" data-minutes="{{ totalMinutes }}">
-                <span class="time-completed"></span>
-                <span class="time-remaining"></span>
-                <div class="bar">
-                    <span class="completed" style="width:0%;"></span>
-                    <span class="remaining" style="width:100%;"></span>
-                </div>
-            </div>
+      
+</main>
 
-            {% include share.html %}
-            {% include author.html %}
-            {% include comments.html %}
-            {% include footer.html %}
-        </section>
-    </body>
-</html>
