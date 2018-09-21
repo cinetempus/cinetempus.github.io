@@ -23,7 +23,7 @@ HeaderVideo.prototype.init = function(settings) {
     this.setFluidContainer();
     this.bindUIActions();
 
-    if(this.videoDetails.teaser && Modernizr.video && !Modernizr.touch) {
+    if(this.videoDetails.teaser && Modernizr.video) {
         this.appendTeaserVideo();
     }
 };
