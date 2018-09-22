@@ -85,11 +85,26 @@
 	<!-- Initialisation Code  -->
 	<script src="/assets/js/app.js"></script>
   	<script src="/assets/js/plyr.min.js"></script>
+    	<script src="/assets/js/modernizr.js"></script>
+      	<script src="/assets/js/script.js"></script>
 
 <script id="dsq-count-scr" src="//https-imbriitneysam-github-io.disqus.com/count.js" async></script>
 
 
 <script>const player = new Plyr('#player');</script>
+
+<script>
+  $(document).ready(function() {
+    $('.header-video').each(function(i, elem) {
+        headerVideo = new HeaderVideo({
+          element: elem,
+          media: '.header-video__media',
+          playTrigger: '.header-video__play-trigger',
+          closeTrigger: '.header-video__close-trigger'
+        });
+    });
+  });
+</script>
 
 <script>
 // Get all elements with class="closebtn"
