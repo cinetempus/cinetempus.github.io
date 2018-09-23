@@ -4,29 +4,66 @@ layout: main
 
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
      
-
-
-
-
+<div class="header-video">
+    <img src="https://res.cloudinary.com/imbriitneysam/image/upload/v1537676714/venom3-min.jpg"
+         class="header-video__media"
+         data-video-URL="https://www.youtube.com/embed/Scxs7L0vhZ4"
+         data-video-width="560"
+         data-video-height="315">
+    <a href="https://www.youtube.com/embed/Scxs7L0vhZ4" class="header-video__play-trigger" id="header-video__play-trigger">Ver Trailer</a>
+    <button type="button" class="header-video__close-trigger" id="header-video__close-trigger">Close video</button>
+</div>
 
 
             <article role="article" id="post" class="post-content" itemprop="articleBody">
-                <p itemprop="post-info" class="post-info">
-                    {% if page.date %}
-                        <svg id="date" class="icon-calendar"><use xlink:href="#icon-calendar"></use></svg>
-                        <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="date">
-                            {% include date.html date=page.date %}
-                        </time>
-                    {% endif %}
-                    <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
-                    <span>{{ minutesText }}</span>
-                </p>
-                <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
-                <p itemprop="description" class="subtitle">{{ page.description }}</p>
 
-                {% if page.image %}
-                    <img src="{{ page.image }}" alt="Imagem de capa" class="post-cover">
-                {% endif %}
+                <div id="grid" class="row">
+
+                    <div class="col-md-6 col-xs-6 col-lg-6">
+                        {% if page.image %}
+                        <img src="{{ page.image }}" alt="Imagem de capa" class="post-cover">
+                            {% endif %}
+
+                    </div>
+                
+                    
+
+                    <div class="col-md-6 col-xs-6 col-lg-6">
+                         <div class="col-md-12 col-xs-12 col-lg-12">
+
+                            <div align="center">
+
+                                 <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+
+                             </div>
+                         </div>
+
+                       
+                         <p itemprop="description" class="subtitle">Género: {{ page.genero }}</p>   
+                        <p itemprop="description" class="subtitle">Año: {{ page.anio }}</p>   
+                          <p itemprop="description" class="subtitle">Duración: {{ page.duracion }}</p>   
+                           <p itemprop="description" class="subtitle">Rating: {{ page.estrellas }} <i class="fa fa-star" aria-hidden="true"></i></p>   
+
+                    </div>
+
+                </div>
+
+                <div cold-md="12">
+
+                    <div align="center">
+
+                    <h2 class="top_h2"> Sinopsis </h2>
+
+                    </div>
+                </div>
+
+                  <div id="grid" class="row">
+
+                      <p itemprop="description" class="subtitle"> {{ page.description }}</p>   
+
+                   </div>
+
+                
 
                 {{ content }}
             </article>
