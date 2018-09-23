@@ -41,7 +41,7 @@ HeaderVideo.prototype.bindUIActions = function() {
 };
 
 HeaderVideo.prototype.appendIframe = function() {
-    var html = '<iframe id="header-video__video-element" src="'+this.videoDetails.videoURL+'?rel=0&amp;hd=1&autohide=1&showinfo=0&autoplay=1&enablejsapi=1&origin=*" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+    var html = '<iframe id="header-video__video-element" src="'+this.videoDetails.videoURL+'?rel=0&amp;hd=1&autohide=1&showinfo=0&autoplay=1&enablejsapi=1&origin=*" frameborder="0" msallowfullscreen oallowfullscreen webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
     $(this.settings.playTrigger).fadeOut();
     $(this.settings.closeTrigger).fadeIn();
     this.$element.append(html);
