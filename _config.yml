@@ -36,8 +36,9 @@ links:
     url: /category/peliculas
   - title: Series
     url: contact/
-  - title: XXX / Hentai
+  - title: Anime
     url: contact/
+
 
 # Exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
