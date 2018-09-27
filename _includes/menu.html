@@ -8,7 +8,7 @@
      <hr>
       <ul>
         {% for link in site.links %}
-          <li><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}"> <i class='fa fa-film' style="padding-right:10px;"></i> {{ link.title }}</a></li>
+          <li><a onclick="cargar()" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}"> <i class='fa fa-film' style="padding-right:10px;"></i> {{ link.title }}</a></li>
  
         {% endfor %}
         
