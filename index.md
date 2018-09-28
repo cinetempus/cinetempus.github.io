@@ -29,12 +29,12 @@ layout: main
 					 	{% if post.nuevo=='new_peliculas' %}
 						 <div class="item">
 							<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
-								<a href="{{ post.url | prepend: site.baseurl }}" class="hvr-shutter-out-horizontal"><img src="{{ post.image_carousel }}" title="album-name" class="img-responsive" alt=" " />
+								<a id="load" href="{{ post.url | prepend: site.baseurl }}" class="hvr-shutter-out-horizontal"><img src="{{ post.image_carousel }}" title="album-name" class="img-responsive" alt=" " />
 									<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true"></i></div>
 								</a>
 								<div class="mid-1 agileits_w3layouts_mid_1_home">
 									<div class="w3l-movie-text">
-										<h6><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h6>							
+										<h6><a id="load" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h6>							
 									</div>
 									<div class="mid-2 agile_mid_2_home">
 										<p>{{ post.anio }}</p>
@@ -75,7 +75,7 @@ layout: main
                 {% if post.image %}
                     <div class="cover">
                         {% include new-post-tag.html date=post.date %}
-                        <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
+                        <a id="load" href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
                             <img src="https://res.cloudinary.com/imbriitneysam/image/upload/v1537239672/placeholder-min.png" data-url="{{ post.image }}" class="preload">
                         </a>
                     </div>
@@ -87,7 +87,7 @@ layout: main
                     </time>
 					<div class="w3l-movie-text">
 						<h6>
-							<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+							<a id="load" class="post-link" href="{{ post.url | prepend: site.baseurl }}">
 									{{ post.title }}
 							</a>
 						</h6>
