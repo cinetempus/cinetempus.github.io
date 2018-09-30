@@ -73,10 +73,10 @@ html[xmlns] .flexslider .slides {
  * DEFAULT THEME
  * ====================================================================================================================*/
 .flexslider {
-  margin: 0 0 60px;
+  margin: 0 0 10px;
   position: relative;
   zoom: 1;
-  height:300px;
+  height:250px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -89,7 +89,7 @@ html[xmlns] .flexslider .slides {
   zoom: 1;
 }
 .flexslider .slides img {
-  height: 400px;
+  height: 350px;
   -moz-user-select: none;
 }
 
@@ -218,6 +218,7 @@ html[xmlns] .flexslider .slides {
   position: absolute;
   bottom: -130px;
   text-align: center;
+  display:none;
 }
 .flex-control-nav li {
   margin: 0 6px;

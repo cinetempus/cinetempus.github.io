@@ -1,7 +1,7 @@
 <footer>
   
     
-    <p> Esta App almacena sus videos en su propio servidor y la comparte con su propio reproductor, evitando así la publicidad. Disfrútenlo <svg class="love"><use xlink:href="#icon-heart"></use></svg> </p>
+    <p> Esta App almacena sus videos en reproductores libres de publicidad. Disfrútenlo <svg class="love"><use xlink:href="#icon-heart"></use></svg> </p>
 <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
 <!-- Google CDN Hosted jQuery  -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
@@ -16,9 +16,24 @@
       $("#owl-demo").owlCarousel({
     
         autoPlay: 3000,    
-        items : 5,
-        itemsDesktop : [640,4],
-        itemsDesktopSmall : [414,3]
+        itemsDesktop : [1000,3],
+        itemsDesktopSmall : [900,3], 
+        itemsTablet: [700,3], 
+        itemsMobile : [479,2], 
+        responsive:{
+            480:{
+                items:2,
+                
+            },
+            678:{
+                items:3,
+               
+            },
+            960:{
+                items:5,
+               
+            }
+        }
     
       });
     

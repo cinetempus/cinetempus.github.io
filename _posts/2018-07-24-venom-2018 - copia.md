@@ -12,7 +12,6 @@ duracion: '112 min'
 estrellas: '4.7'
 genero: Acción, Ciencia Ficción, Superhéroes
 embed: https://www.youtube.com/embed/Km_LFu90FdQ
-clasificacion: 'PG-13'
 tags:
 - Ciencia-Ficcion
 twitter_text: Studio Code, el inicio de una nueva manera de compartir conocimientos informáticos.
