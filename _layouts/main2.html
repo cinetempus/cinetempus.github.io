@@ -1,0 +1,18 @@
+---
+layout: compress
+comments: true
+---
+
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+    {% include head.html %}
+    <body class="main-page has-push-menu">
+        <div id="loader" class="loader" style="display: none;"></div>
+        {% include svg-icons.html %}
+        {% include header_movil.html %}
+            <section class="content">
+                {{ content }}
+            </section>
+        {% include footer.html %}
+    </body>
+</html>
