@@ -25,8 +25,8 @@ layout: main
 		<div class="container">
 			<div class="w3_agile_banner_bottom_grid">
 				<div id="owl-demo" class="owl-carousel owl-theme">
-				     {% for post in site.posts %}
-					 	{% if post.nuevo=='new_peliculas' %}
+				     {% assign post_news = site.posts | where:"nuevo","new_peliculas" %}
+				     {% for post in post_news %}
 						 <div class="item">
 							<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
 								<a id="load" href="{{ post.url | prepend: site.baseurl }}" class="hvr-shutter-out-horizontal"><img src="{{ post.image_carousel }}" title="album-name" class="img-responsive" alt=" " />
@@ -55,7 +55,6 @@ layout: main
 								</div>
 							</div>
 						</div>
-						{%endif%}
 					 {% endfor %}
 				</div>
 			</div>			

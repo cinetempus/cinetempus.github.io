@@ -7,6 +7,9 @@
       "tags"     : "{{ post.tags | array_to_sentence_string }}",
       "categories" : "{{ post.category }}",
       "image" : "{{ post.image }}",
+      "anio" : "{{ post.anio }}",
+      "clasificacion" : "{{ post.clasificacion }}",
+      "duracion" : "{{ post.duracion }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date | date: '%m/%d/%Y'}}"
     } {% unless forloop.last %},{% endunless %}
