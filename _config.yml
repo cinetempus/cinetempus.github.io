@@ -34,10 +34,7 @@ gems:
 links:
   - title: Peliculas
     url: /category/peliculas
-  - title: Series
-    url: /
-  - title: Anime
-    url: /
+
 
 
 # Exclude my node related stuff
