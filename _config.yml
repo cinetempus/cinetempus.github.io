@@ -35,9 +35,9 @@ links:
   - title: Peliculas
     url: /category/peliculas
   - title: Series
-    url: contact/
+    url: /
   - title: Anime
-    url: contact/
+    url: /
 
 
 # Exclude my node related stuff
