@@ -246,14 +246,12 @@ i.glyphicon.glyphicon-play-circle {
   position: absolute;
     top: 3%;
     left: 4%;
-    padding: 20px 0 0 0;
-    background: #ff8d1b;
+    padding: 15px 0 0 0;
+    background: #ef9818;
     width: 40px;
-    height: 40px;
+    height: 30px;
     border-radius: 50%;
-	-webkit- border-radius: 50%;
-	-0- border-radius: 50%;
-	-moz- border-radius: 50%;
+
 }
 .ribben p {
     font-size:0.9em;
@@ -422,3 +420,4 @@ ol.breadcrumb li a {
        font-size: 2em;
 	}
 }
+

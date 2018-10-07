@@ -71,6 +71,12 @@ text-decoration:none;
     font-size: 20px;
 }
 
+.titulo{
+    background: #141414;
+    padding: 5px;
+    margin: 0px 5px;
+}
+
 @media only screen and (max-width: 690px) {
     .flexslider .slides img {
         height: 250px;
@@ -85,6 +91,11 @@ text-decoration:none;
          margin: -50px 0 0;
 
     }
+    .titulo{
+    background: #141414;
+    padding: 5px;
+    margin: 0px 0px;
+        }
 
     .top_h2{
         font-family: latin-100,arabic-100,sans-serif;
@@ -203,7 +214,7 @@ text-decoration:none;
   text-decoration: none;
   padding: 0.5em 1em;
   border-radius: 10px;
-  right: 10px;
+  right: 20px;
   top: 20px;
   -webkit-transition: background .3s;
   -moz-transition: background .3s;
@@ -271,7 +282,7 @@ a[href="https://www.rapidvideo.com"] {
 
 .bar2{
     position:absolute;
-    bottom:168px;
+    top:0px;
     z-index: 98;
     right:0;
     width:100%;
@@ -279,3 +290,4 @@ a[href="https://www.rapidvideo.com"] {
     background-color: #080808;
     display: block;
 }
+
