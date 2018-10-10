@@ -248,15 +248,16 @@ i.glyphicon.glyphicon-play-circle {
     left: 4%;
     padding: 15px 0 0 0;
     background: #ef9818;
-    width: 40px;
+    width: 35px;
     height: 30px;
     border-radius: 50%;
 
 }
 .ribben p {
-    font-size:0.9em;
+    font-size:0.7em;
     color: #fff;
 	line-height: 0;
+    font-weight: bold;
 }
 .ribben:after {
     content: '';

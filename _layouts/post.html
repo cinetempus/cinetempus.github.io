@@ -73,8 +73,24 @@ layout: main2
                              <h2 class="top_h2"> Opciones de Reproducción </h2>
 
                              <div class="holder">
-                                <iframe src="{{ page.iframe }}" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" width="100%" height="350px" sandbox="allow-same-origin allow-forms"></iframe>
-                                <div class="bar"></div>
+                                <iframe src="{{ page.iframe }}" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true" width="100%" height="350px" sandbox="{{ page.sandbox }}"></iframe>
+                                 {% if page.display == 'none' %}
+
+                                  <div class="bar" style="display:none;"></div>
+                                  {%else%}
+
+                                   {% if page.display == 'block' %}
+                                     <div class="bar" style="display:block;"></div>
+
+
+                                    {% endif %}
+
+
+
+                                 {% endif %}
+
+
+                               
                             </div>
 
                            
